@@ -24,29 +24,27 @@
 
     </header> <!-- fim cabeçalho -->
 
-    <div class="container">    
-      <div class="row">
+    <section id="home">
+        <h1 > Menu</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 ml-5">
+                    <img src="imagem/formulario_abrir_chamado.png" alt="">
+                </div>
 
-        <div class="card-home">
-          <div class="card">
-            <div class="card-header">
-              Menu
-            </div>
-            <div class="card-body">
-              <div class="row">
-                <div class="col-6 d-flex justify-content-center">
-                  <img src="imagem/formulario_abrir_chamado.png" width="70" height="70">
+                <div class="col-md-6">
+                    <img src="imagem/formulario_consultar_chamado.png" alt="">
+
                 </div>
-                <div class="col-6 d-flex justify-content-center">
-                  <img src="imagem/formulario_consultar_chamado.png" width="70" height="70">
-                </div>
-              </div>
+
+
             </div>
-          </div>
+
         </div>
-    </div>
-    <a href="consultar_chamado.php"> clique aqui</a>
-</div>
+
+    </section>
+
+    
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
