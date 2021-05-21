@@ -49,7 +49,7 @@
 
                 <div class="row" id="botao">
                     <div class="col-md-8">
-                        <button class="btn btn-info btn-lg btb-block" type="submit" id="btn">Entrar</button>
+                        <button class="btn btn-info btn-lg btn-block" type="submit" id="btn">Entrar</button>
 
                     </div>
 
