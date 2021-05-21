@@ -45,6 +45,8 @@
           </div>
         </div>
     </div>
+    <a href="consultar_chamado.php"> clique aqui</a>
+</div>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
