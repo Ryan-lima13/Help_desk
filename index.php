@@ -3,22 +3,7 @@
   <head>
     <title>Help Desk</title>
 
-    <style>
-
-       nav a{
-            color: #fff;
-            font-size: 25px;
-           
-        }
-        nav a:hover{
-            color: #fff;
-            
-        }
-        nav a:link{
-            text-decoration: none;
-        }
-    
-    </style>
+    <link rel="stylesheet" href="css/style.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -39,6 +24,16 @@
         </nav>
 
     </header> <!-- fim cabeçalho -->
+
+    <section><!--inicio formulario login-->
+        <div class="container">
+            <h1> Login</h1>
+
+    
+
+        </div>
+
+    </section><!--fim formulario login -->
 
     
 
