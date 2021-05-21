@@ -10,3 +10,13 @@ nav a:hover{
 nav a:link{
     text-decoration: none;
 }
+
+section{
+    
+    width: 500px;
+    margin: auto;
+    padding-top: 100px;
+}
+section h1{
+    text-align:  center;
+}
