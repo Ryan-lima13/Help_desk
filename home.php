@@ -25,10 +25,10 @@
     </header> <!-- fim cabeçalho -->
 
     <section id="home">
-        <h2>Menu</h2>
+        <h2 class="text-center mt-5">Menu</h2>
         <div class="container mt-5">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 ">
                     <img class="img-fluid" width="200" src="imagem/formulario_consultar_chamado.png" alt="">
                 </div>
 
@@ -37,6 +37,7 @@
 
                 </div>
             </div>
+            <a href="abrir_chamado.php">clique aqui</a>
         </div>
         
 
