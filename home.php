@@ -25,22 +25,22 @@
     </header> <!-- fim cabeçalho -->
 
     <section id="home">
-        <h1 > Menu</h1>
-        <div class="container">
+        <h2>Menu</h2>
+        <div class="container mt-5">
             <div class="row">
-                <div class="col-md-6 ml-5">
-                    <img src="imagem/formulario_abrir_chamado.png" alt="">
+                <div class="col-md-6">
+                    <img class="img-fluid" width="200" src="imagem/formulario_consultar_chamado.png" alt="">
                 </div>
 
                 <div class="col-md-6">
-                    <img src="imagem/formulario_consultar_chamado.png" alt="">
+                    <img class="img-fluid" width="200" src="imagem/formulario_abrir_chamado.png" alt="">
 
                 </div>
-
-
             </div>
-
         </div>
+        
+
+        
 
     </section>
 
