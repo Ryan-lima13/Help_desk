@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <title>Title</title>
+    <title>Consultar Chamado</title>
+    <link rel="stylesheet" href="css/style.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,6 +11,58 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
+
+    <header> <!-- inicio cabeçalho -->
+
+        <nav class="navbar navbar-expand-md navbar-light bg-dark">
+            <a href="index.php">
+                <img class="navbar-brand" width="50" src="imagem/logo.png" alt="">
+                Help Desk
+            </a>
+
+        </nav>
+
+    </header> <!-- fim cabeçalho -->
+
+    <div class="container">    
+      <div class="row">
+
+        <div class="card-consultar-chamado">
+          <div class="card">
+            <div class="card-header">
+              Consulta de chamado
+            </div>
+            
+            <div class="card-body">
+              
+              <div class="card mb-3 bg-light">
+                <div class="card-body">
+                  <h5 class="card-title">Título do chamado...</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Categoria</h6>
+                  <p class="card-text">Descrição do chamado...</p>
+
+                </div>
+              </div>
+
+              <div class="card mb-3 bg-light">
+                <div class="card-body">
+                  <h5 class="card-title">Título do chamado...</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Categoria</h6>
+                  <p class="card-text">Descrição do chamado...</p>
+
+                </div>
+              </div>
+
+              <div class="row mt-5">
+                <div class="col-6">
+                  <button class="btn btn-lg btn-warning btn-block" type="submit">Voltar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
