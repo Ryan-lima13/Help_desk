@@ -25,13 +25,41 @@
 
     </header> <!-- fim cabeçalho -->
 
+
     <section><!--inicio formulario login-->
-        <div class="container">
+        <div class="container ">
             <h1 class="display-4"> Login</h1>
+            <div class="row">
+                <div class="col-md-10 form-group ">
+                    <input type="email" name="email" id="email" class="form-control bg-md" placeholder="E-mail">
+                    
+
+                </div>
+
+                
+                
+
+                </div>
+                <div class="row form-group">
+                    <div class="col-md-10">
+                        <input type="password" name="senha" id="senha" class="form-control" placeholder=" Senha">
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <button class="btn btn-info btn-lg btb-block" type="submit">Entrar</button>
+
+                    </div>
+
+                </div>
+
+            </div>
 
     
 
-        </div>
+        
 
     </section><!--fim formulario login -->
 
