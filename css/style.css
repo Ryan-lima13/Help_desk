@@ -11,7 +11,7 @@ nav a:link{
     text-decoration: none;
 }
 
-section{
+#formulario{
     
     width: 500px;
     margin: auto;
@@ -19,7 +19,7 @@ section{
     
 
 }
-section h1{
+#Formulario h1{
     text-align:  left;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 120px;
