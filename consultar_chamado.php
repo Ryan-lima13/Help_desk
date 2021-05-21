@@ -24,16 +24,11 @@
 
     </header> <!-- fim cabeçalho -->
 
-    <div class="container">    
-      <div class="row">
+    <section id="consulta">
+        <h2 class="mt-5 text-center">Consultar Chamado</h2>
 
-        <div class="card-consultar-chamado">
-          <div class="card">
-            <div class="card-header">
-              Consulta de chamado
-            </div>
-            
-            <div class="card-body">
+        <div class="container">
+        <div class="card-body">
               
               <div class="card mb-3 bg-light">
                 <div class="card-body">
@@ -55,15 +50,21 @@
 
               <div class="row mt-5">
                 <div class="col-6">
-                  <button class="btn btn-lg btn-warning btn-block" type="submit">Voltar</button>
+                  <button class="btn btn-lg btn-info btn-block" type="submit">Voltar</button>
                 </div>
               </div>
             </div>
-          </div>
+
+        
+
         </div>
-      </div>
-      <a href="abrir_chamado.php"> clique aqui</a>
-    </div>
+        
+
+    </section>
+
+    
+
+        
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
