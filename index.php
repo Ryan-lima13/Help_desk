@@ -27,7 +27,7 @@
 
     <section><!--inicio formulario login-->
         <div class="container">
-            <h1> Login</h1>
+            <h1 class="display-4"> Login</h1>
 
     
 
