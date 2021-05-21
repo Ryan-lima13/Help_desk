@@ -1,0 +1,12 @@
+nav a{
+    color: #fff;
+    font-size: 25px;
+   
+}
+nav a:hover{
+    color: #fff;
+    
+}
+nav a:link{
+    text-decoration: none;
+}
