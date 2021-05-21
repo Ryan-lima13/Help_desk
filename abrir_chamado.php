@@ -64,6 +64,7 @@
                 
 
             </div>
+            <a href="consultar_chamado.php">clique aqui</a>
 
         </div>
 
