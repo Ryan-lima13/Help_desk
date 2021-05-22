@@ -29,30 +29,26 @@
     <section id="formulario"><!--inicio formulario login-->
         <div class="container ">
             <h1 class="display-4"> Login</h1>
-            
-            <div class="row">
-                <div class="col-md-10  form-group ">
-                    <input type="email" name="email" id="email" class="form-control bg-md" placeholder="E-mail">
-                    
 
-                </div>
-
+            <Form action="">
+                <div class="row">
+                    <div class="col-md-10  form-group ">
+                        <input type="email" name="email" id="email" class="form-control bg-md" placeholder="E-mail" required>
+                
+                    </div>
                 
                 
-
-                </div>
-                <div class="row form-group">
-                    <div class="col-md-10">
-                        <input type="password" name="senha" id="senha" class="form-control" placeholder=" Senha" required>
                     </div>
-
-                </div>
-
-                <div class="row" id="botao">
-                    <div class="col-md-8">
-                        <button class="btn btn-info btn-lg btn-block" type="submit" id="btn">Entrar</button>
-
+                    <div class="row form-group">
+                        <div class="col-md-10">
+                            <input type="password" name="senha" id="senha" class="form-control" placeholder=" Senha" required>
+                        </div>
                     </div>
+                    <div class="row" id="botao">
+                        <div class="col-md-8">
+                            <button class="btn btn-info btn-lg btn-block" type="submit" id="btn">Entrar</button>
+                        </div>
+            </Form>
 
                 </div>
                 <a href="home.php"> clique aqui</a>
