@@ -7,6 +7,9 @@
         array('email' =>'user@teste.com.br','senha' =>'abc')
 
     );
+    echo '<pre>';
+    print_r($usuarios);
+    echo '</pre>';
 
 
    /* print_r($_GET);
