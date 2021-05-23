@@ -29,6 +29,6 @@
     if($usuario_autenticado){
         echo 'autenticado';
     }else{
-        echo 'erro nao autenticado';
+        header('location:index.php?login=erro');
     }
   
