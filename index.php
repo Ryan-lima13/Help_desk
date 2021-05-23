@@ -50,6 +50,9 @@
 
                             
                         ?>
+                        <div class="text-danger">
+                            Usuário ou senha inválido!
+                        </div>
 
                         <?php
 
