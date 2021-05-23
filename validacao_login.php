@@ -35,7 +35,11 @@
     }
     if($usuario_autenticado){
         echo 'autenticado';
+        $_SESSION['autenticado']= 'sim';
+
     }else{
+
+        $_SESSION['autenticado']= 'não';
         header('location:index.php?login=erro');
     }
   
