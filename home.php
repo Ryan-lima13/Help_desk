@@ -1,7 +1,11 @@
 <?php
     session_start();
 
+    header('location:index.php?login=erro2');
+
     echo $_SESSION['autenticado'];
+
+    
 
 ?>
 
