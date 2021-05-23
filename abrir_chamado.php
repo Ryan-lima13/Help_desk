@@ -1,3 +1,10 @@
+<?php
+    session_start();
+
+    echo $_SESSION['autenticado'];
+
+?>
+
 <!doctype html>
 <html lang="pt-br">
   <head>
