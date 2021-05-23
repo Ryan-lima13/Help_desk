@@ -1,4 +1,11 @@
 <?php
+
+    session_start();
+    print_r($_SESSION);
+    echo '<hr>';
+
+    
+
     // variavel de autenticação 
     $usuario_autenticado = false;
     // usuário do sistemas
