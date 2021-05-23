@@ -45,6 +45,17 @@
                         <div class="col-md-10">
                             <input type="password" name="senha" id="senha" class="form-control" placeholder=" Senha" required>
                         </div>
+                        <?php 
+                            if(isset($_GET['login']) && $_GET['login'] == 'erro'){
+
+                            
+                        ?>
+
+                        <?php
+
+                            }
+
+                        ?>
                     </div>
                     <div class="row" id="botao">
                         <div class="col-md-8">
