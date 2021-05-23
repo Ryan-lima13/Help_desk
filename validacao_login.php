@@ -1,4 +1,14 @@
 <?php
+
+    // usuário do sistemas
+
+    $usuarios = array(
+        array('email' =>'admteste@.com.br','senha' =>'123456'),
+        array('email' =>'user@teste.com.br','senha' =>'abc')
+
+    );
+
+
    /* print_r($_GET);
     echo '<br/>';
     echo $_GET['email'];
