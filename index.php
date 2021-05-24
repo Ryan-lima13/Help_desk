@@ -59,6 +59,21 @@
                             }
 
                         ?>
+
+<?php 
+                            if(isset($_GET['login']) && $_GET['login'] == 'erro2'){
+
+                            
+                        ?>
+                        <div class="text-danger">
+                            Faça o login para poder ter acesso..
+                        </div>
+
+                        <?php
+
+                            }
+
+                        ?>
                     </div>
                     <div class="row" id="botao">
                         <div class="col-md-8">
