@@ -35,6 +35,7 @@
     if($usuario_autenticado){
         echo 'autenticado';
         $_SESSION['autenticado']= 'sim';
+        header('location:home.php');
 
     }else{
 
