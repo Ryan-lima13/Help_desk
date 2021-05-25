@@ -35,3 +35,6 @@ div{
   
     width: 380px;
 }
+.navbar-light .navbar-nav .nav-link{
+    color:  #fff;
+}
