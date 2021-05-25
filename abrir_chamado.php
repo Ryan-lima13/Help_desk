@@ -38,30 +38,30 @@
         <h2 class="mt-5 text-center">Abertura de Chamado</h2>
 
         <div class="container">
-            <Form method="post" action="resgistro_chamado.php">
+            <Form action="registro_chamado.php" method="post">
                 <div class="row ">
                     <div class="col-md-6 form-group">
                         <input type="text" name="titulo" id="titulo" placeholder=" Título" class="form-control">
                     </div>
                     <div class="col-md-6 form-group">
-                        <select name="categoria" id="categoria" class="form-control">
-                            <option value="">Criação de Usuário</option>
-                            <option value=""> Impressora</option>
-                            <option value=""> Hardware</option>
-                            <option value="">software</option>
-                            <option value=""> Rede</option>
+                        <select name="descricao" id="">
+                            <option >Criação usuario</option>
+                            <option >Impressora</option>
+                            <option >hadware</option>
+                            <option >Software</option>
+                            <option > Rede</option>
                         </select>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md form-group">
-                        <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                        <textarea name="descricao" id="" cols="30" rows="10" class="form-control"></textarea>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <a href="home.php" class="btn btn-info">Voltar</a>
-                        <a href="" class="btn btn-info mr-5"> Abrir</a>
+                        <button class="btn btn-info mr-5" type="submit">abrir</button>
                     </div>
                 
                 </div>
