@@ -60,7 +60,7 @@
 
                         ?>
 
-<?php 
+                        <?php 
                             if(isset($_GET['login']) && $_GET['login'] == 'erro2'){
 
                             
