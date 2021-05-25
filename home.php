@@ -24,6 +24,12 @@
                 Help Desk
             </a>
 
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Sair</a>
+                </li>
+            </ul>
+
         </nav>
 
     </header> <!-- fim cabeçalho -->
