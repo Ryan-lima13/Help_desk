@@ -54,7 +54,7 @@
 
               <div class="row mt-5">
                 <div class="col-6">
-                  <button class="btn btn-lg btn-info btn-block" type="submit">Voltar</button>
+                  <a href="index.php" class="btn btn-info btn-block">Voltar</a>
                 </div>
               </div>
             </div>
