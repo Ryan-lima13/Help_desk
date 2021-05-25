@@ -23,6 +23,12 @@
                 <img class="navbar-brand" width="50" src="imagem/logo.png" alt="">
                 Help Desk
             </a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="logoff.php" class="nav-link text-white">Sair</a>
+                </li>
+            </ul>
+
 
         </nav>
 
