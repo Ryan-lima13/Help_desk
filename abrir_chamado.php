@@ -59,7 +59,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <a href="index.php" class="btn btn-info">Voltar</a>
+                    <a href="home.php" class="btn btn-info">Voltar</a>
                     <a href="" class="btn btn-info mr-5"> Abrir</a>
 
 
