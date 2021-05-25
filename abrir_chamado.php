@@ -38,7 +38,7 @@
         <h2 class="mt-5 text-center">Abertura de Chamado</h2>
 
         <div class="container">
-            <Form method="post">
+            <Form method="post" action="resgistro_chamado.php">
                 <div class="row ">
                     <div class="col-md-6 form-group">
                         <input type="text" name="titulo" id="titulo" placeholder=" Título" class="form-control">
