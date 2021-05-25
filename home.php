@@ -33,11 +33,14 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6 ">
-                    <img class="img-fluid" width="200" src="imagem/formulario_consultar_chamado.png" alt="">
+
+                    <a href="consultar_chamado.php"><img class="img-fluid" width="200" src="imagem/formulario_consultar_chamado.png" alt=""></a>
+
                 </div>
 
                 <div class="col-md-6">
-                    <img class="img-fluid" width="200" src="imagem/formulario_abrir_chamado.png" alt="">
+
+                    <a href="abrir_chamado.php"><img class="img-fluid" width="200" src="imagem/formulario_abrir_chamado.png" alt=""></a>
 
                 </div>
             </div>
