@@ -24,9 +24,9 @@
                 Help Desk
             </a>
 
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="" class="nav-link">Sair</a>
+                    <a href="logoff.php" class="nav-link text-white">Sair</a>
                 </li>
             </ul>
 
