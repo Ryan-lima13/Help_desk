@@ -1,1 +1,1 @@
-notebook nao liga#hadware#notbook nao esta ligandoerro de impressao#Impressora#nao esat imprimindo
+notebook#hadware#nao esta funcionadoerro de impressao#Impressora#nao esta impromimdo
