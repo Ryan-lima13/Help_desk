@@ -44,7 +44,7 @@
                         <input type="text" name="titulo" id="titulo" placeholder=" Título" class="form-control">
                     </div>
                     <div class="col-md-6 form-group">
-                        <select name="descricao" id="" class="form-control">
+                        <select name="categoria" id="" class="form-control">
                             <option >Criação usuario</option>
                             <option >Impressora</option>
                             <option >hadware</option>
