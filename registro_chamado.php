@@ -5,6 +5,6 @@
     echo '</pre>';
 
     //fopen('arquivo.rd','a');
-    $texto = $_POST['titulo'] .$_POST['categoria'] .$_POST['descricao'];
+    $texto = $_POST['titulo'] .'#'.$_POST['categoria'] .'#'.$_POST['descricao'];
     echo " $texto <br/> ";
 ?>
