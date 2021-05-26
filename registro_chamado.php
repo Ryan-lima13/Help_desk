@@ -12,5 +12,7 @@
 
     fwrite($arquivo,$texto);
     fclose($arquivo);
-    echo " $texto <br/> ";
+
+    header('location:abrir_chamado.php');
+    //echo " $texto <br/> ";
 ?>
