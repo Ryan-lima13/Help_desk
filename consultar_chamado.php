@@ -3,6 +3,7 @@
 ?>
 
 <?php
+$chamados = array();
 
   // abrir o arquivo text.hd
   $arquivo = fopen('arquivo.rd','r');
@@ -13,7 +14,9 @@
     fgets($arquivo);
 
   }
-  $regsitro= fclose($arquivo).;
+  $regsitro= fclose($arquivo);
+  $chamados[] = $registros;
+  
 
 ?>
 
