@@ -3,7 +3,7 @@
 ?>
 
 <?php
-$chamados = array();
+  $chamados = array();
 
   // abrir o arquivo text.hd
   $arquivo = fopen('arquivo.rd','r');
@@ -12,10 +12,13 @@ $chamados = array();
   while( !feof($arquivo)){    // testa pelo fim do arquivo
 
     fgets($arquivo);
-      $regsitro= fclose($arquivo);
-      $chamados[] = $registros;
+    $regsitro= fclose($arquivo);
+    $chamados[] = $registros;
 
   }
+  echo '<pre>';
+  print_r($chamados);
+  echo '</pre>'
  
   
 
