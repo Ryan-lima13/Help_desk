@@ -4,7 +4,7 @@
     print_r($_POST);
     echo '</pre>';
 
-     $arquivo = fopen('arquivo.rd','a');
+    $arquivo = fopen('arquivo.rd','a');
     $titulo = str_replace('#',',',$_POST['titulo']);
     $categoria = str_replace('#',',',$_POST['categoria']);
     $descricao = str_replace('#',',',$_POST['descricao']);
