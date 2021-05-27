@@ -12,10 +12,11 @@ $chamados = array();
   while( !feof($arquivo)){    // testa pelo fim do arquivo
 
     fgets($arquivo);
+      $regsitro= fclose($arquivo);
+      $chamados[] = $registros;
 
   }
-  $regsitro= fclose($arquivo);
-  $chamados[] = $registros;
+ 
   
 
 ?>
