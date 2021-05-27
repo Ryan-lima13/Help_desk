@@ -7,6 +7,14 @@
   // abrir o arquivo text.hd
   $arquivo = fopen('arquivo.rd','r');
 
+  // enquanto houver regsitros(linhas) a serem  recuperados
+  while( !feof($arquivo)){    // testa pelo fim do arquivo
+
+    fgets($arquivo);
+
+  }
+  $regsitro= fclose($arquivo).;
+
 ?>
 
 <!doctype html>
