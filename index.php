@@ -77,7 +77,7 @@
 
                         ?>
                     </div>
-                    <div class="row" id="botao">
+                    <div class="row justify-content-center" id="botao">
                         <div class="col-md-8">
                             <button class="btn btn-info btn-lg btn-block" type="submit" id="btn">Entrar</button>
                         </div>
