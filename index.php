@@ -27,13 +27,15 @@
 
 
     <section id="formulario"><!--inicio formulario login-->
+    
+    <h1 class="display-4 primeiro text-center"> Login</h1>
         
         <div class="container ">
         
-            <h1 class="display-4 primeiro"> Login</h1>
+            
 
             <Form action="validacao_login.php" method="post">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-md-10  form-group ">
                         <input type="email" name="email" id="email" class="form-control bg-md" placeholder="E-mail" required>
                 
