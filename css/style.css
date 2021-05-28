@@ -27,14 +27,7 @@ nav a:link{
 div{
     padding-top: 10px;
 }
-#botao {
-    text-align: center;
-    
-}
-#btn{
-  
-    width: 380px;
-}
+
 .navbar-light .navbar-nav .nav-link{
     color:  #fff;
 }
