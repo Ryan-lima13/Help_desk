@@ -43,7 +43,7 @@
                 
                 
                     </div>
-                    <div class="row form-group">
+                    <div class="row justify-content-center form-group">
                         <div class="col-md-10">
                             <input type="password" name="senha" id="senha" class="form-control" placeholder=" Senha" required>
                         </div>
