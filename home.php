@@ -38,13 +38,13 @@
         <h2 class="text-center mt-5">Menu</h2>
         <div class="container mt-5">
             <div class="row">
-                <div class="col-md-6 ">
+                <div class="col-md-8 ">
 
                     <a href="consultar_chamado.php"><img class="img-fluid" width="200" src="imagem/formulario_consultar_chamado.png" alt=""></a>
 
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-4">
 
                     <a href="abrir_chamado.php"><img class="img-fluid" width="200" src="imagem/formulario_abrir_chamado.png" alt=""></a>
 
