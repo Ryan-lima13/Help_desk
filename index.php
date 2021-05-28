@@ -77,10 +77,13 @@
 
                         ?>
                     </div>
-                    <div class="row justify-content-center" id="botao">
-                        <div class="col-md-8">
-                            <button class="btn btn-info btn-lg btn-block" type="submit" id="btn">Entrar</button>
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <button class="btn btn-info btn-block" type="submit">entrar</button>
+                        
                         </div>
+                    
+                    </div>
             </Form>
 
                 </div>
