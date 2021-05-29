@@ -60,8 +60,12 @@
         <div class="card-body">
         <?php
           foreach($chamados as $chamados){
+           
             
           
+        ?>
+        <?php
+          $chamando_dados = explode('#',$chamado) ;
         ?>
               
               <div class="card mb-3 bg-light">
