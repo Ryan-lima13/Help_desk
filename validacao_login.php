@@ -8,6 +8,7 @@
     // variavel de autenticação 
     $usuario_autenticado = false;
     $id_usuario = null;
+    $usuario_perfil_id = null;
     $perfil = array(1=>'administrativo',2 => 'usuario');
     // usuário do sistemas
 
@@ -34,6 +35,7 @@
         if($user['email'] == $_POST['email'] && $user['senha'] == $_POST['senha']){
             $usuario_autenticado = true;
             $id_usuario = $user['id'];
+            $usuario_perfil_id = $user['perfil'];
         }
         
     }
@@ -41,6 +43,7 @@
         echo 'autenticado';
         $_SESSION['autenticado']= 'sim';
         $_SESSION['id'] = $id_usuario ;
+        $_SESSION['perfil'] = $usuario_perfil_id ;
         header('location:home.php');
 
     }else{
