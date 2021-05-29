@@ -3,12 +3,21 @@
 ?>
 
 <?php
+  // chamados
+  $chamados = array();
   // abrir o arquivo
   $arquivo =fopen('arquivo.hd','r');
   // pecorrer o arquivo enquanto houver registro 
-  while( !feof($arquivo)){
+  while( !feof($arquivo)){ // testa por um fim de um arquivo 
+    $registro = fgets($arquivo);
+    
+    $chamados[] =$registro;
 
   }
+  fclose($arquivo);
+  echo '<pre>';
+  print_r($chamados);
+  echo '</pre>';
   
 
 ?>
