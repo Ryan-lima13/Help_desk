@@ -3,8 +3,12 @@
 ?>
 
 <?php
-  
- 
+  // abrir o arquivo
+  $arquivo =fopen('arquivo.hd','r');
+  // pecorrer o arquivo enquanto houver registro 
+  while( !feof($arquivo)){
+
+  }
   
 
 ?>
