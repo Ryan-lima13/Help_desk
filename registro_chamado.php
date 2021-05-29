@@ -14,5 +14,7 @@
     fwrite($arquivo,$texto);
     // fecahndo o arquivo
     fclose($arquivo);
+
+    header('location:abrir_chamado.php');
    
 ?>
