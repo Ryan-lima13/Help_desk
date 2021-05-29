@@ -15,9 +15,7 @@
 
   }
   fclose($arquivo);
-  echo '<pre>';
-  print_r($chamados);
-  echo '</pre>';
+ 
   
 
 ?>
@@ -60,6 +58,11 @@
 
         <div class="container">
         <div class="card-body">
+        <?php
+          foreach($chamados as $chamados){
+            
+          
+        ?>
               
               <div class="card mb-3 bg-light">
                 <div class="card-body">
@@ -69,6 +72,9 @@
 
                 </div>
               </div>
+              <?php
+                };
+              ?>
 
              
 
