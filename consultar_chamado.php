@@ -66,6 +66,12 @@
         ?>
         <?php
           $chamando_dados = explode('#',$chamado) ;
+          if($_SESSION['perfil'] == 2){
+            // só vamos exibir se ele foi criado pelo usuario
+            if($_SESSION['id'] != $chamando_dados[0]){
+              continue;
+            }
+          }
           if(count($chamando_dados)< 3 ){
             continue;
           }
