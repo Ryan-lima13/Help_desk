@@ -4,7 +4,7 @@
     echo '</pre>';
 
     //fopen('arquivo.hd','a',);
-    $texto = $_POST['titulo'].$_POST['categoria'].$_POST['descricao'];
+    $texto = $_POST['titulo'].'#'.$_POST['categoria'].'#'.$_POST['descricao'];
     echo $texto;
    
 ?>
