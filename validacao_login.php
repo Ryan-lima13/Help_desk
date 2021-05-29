@@ -8,6 +8,7 @@
     // variavel de autenticação 
     $usuario_autenticado = false;
     $id_usuario = null;
+    $perfil = array(1=>'administrativo',2 => 'usuario');
     // usuário do sistemas
 
     $usuarios = array(
