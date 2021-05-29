@@ -10,8 +10,10 @@
     // usuário do sistemas
 
     $usuarios = array(
-        array('email' =>'admiteste@.com.br','senha' =>'123456'),
-        array('email' =>'user@teste.com.br','senha' =>'abc')
+        array('id'=>1,'email' =>'admiteste@.com.br','senha' =>'123456'),
+        array('id'=>2,'email' =>'user@teste.com.br','senha' =>'abc'),
+        array('id'=>3,'email' =>'maria@teste.com.br','senha' =>'abc'),
+        array('id'=>4,'email' =>'joao@teste.com.br','senha' =>'abc')
 
     );
     /*echo '<pre>';
