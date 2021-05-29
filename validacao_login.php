@@ -7,6 +7,7 @@
 
     // variavel de autenticação 
     $usuario_autenticado = false;
+    $id_usuario = null;
     // usuário do sistemas
 
     $usuarios = array(
@@ -31,12 +32,14 @@
     foreach($usuarios as $user){
         if($user['email'] == $_POST['email'] && $user['senha'] == $_POST['senha']){
             $usuario_autenticado = true;
+            $id_usuario = $user['id'];
         }
         
     }
     if($usuario_autenticado){
         echo 'autenticado';
         $_SESSION['autenticado']= 'sim';
+        $_SESSION['id'] = $id_usuario ;
         header('location:home.php');
 
     }else{
